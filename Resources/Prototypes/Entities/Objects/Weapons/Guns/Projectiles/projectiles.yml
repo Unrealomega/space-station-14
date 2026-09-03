@@ -887,6 +887,23 @@
     requireInSpace: true
   - type: PDTarget # Starlight
 
+# Starlight-start
+- type: entity
+  id: BulletGrenadeBola
+  name: bola grenade
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+      - state: grenade
+  - type: Projectile
+    deleteOnCollide: true
+    soundHit:
+      path: /Audio/Effects/snap.ogg
+# Starlight-end
+
 - type: entity
   id: BulletGrenadeBaton
   name: baton grenade
