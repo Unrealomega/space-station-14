@@ -901,7 +901,7 @@
   - type: Projectile
     deleteOnCollide: true
     soundHit:
-      path: /Audio/Effects/snap.ogg
+      path: /Audio/Effects/hit_kick.ogg
 # Starlight-end
 
 - type: entity

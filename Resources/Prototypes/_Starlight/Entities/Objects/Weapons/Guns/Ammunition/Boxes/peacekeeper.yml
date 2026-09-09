@@ -100,7 +100,6 @@
         map: ["enum.GunVisualLayers.Mag"]
       - state: baton
 
-# Starlight-start
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperBola
@@ -117,4 +116,3 @@
       - state: mag-1
         map: ["enum.GunVisualLayers.Mag"]
       - state: bola
-# Starlight-end
